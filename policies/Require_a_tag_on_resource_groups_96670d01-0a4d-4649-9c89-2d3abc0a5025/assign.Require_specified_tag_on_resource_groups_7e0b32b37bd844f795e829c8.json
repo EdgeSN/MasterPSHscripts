@@ -1,0 +1,38 @@
+{
+ "sku": {
+  "name": "A0",
+  "tier": "Free"
+ },
+ "identity": {
+  "principalId": "49867c7e-c180-46b9-a7d7-7dcf6dacb749",
+  "tenantId": "fb024daf-c984-4da6-9f02-7977ad6f0e0d",
+  "type": "SystemAssigned"
+ },
+ "properties": {
+  "displayName": "Require specified tag on resource groups",
+  "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/96670d01-0a4d-4649-9c89-2d3abc0a5025",
+  "scope": "/subscriptions/6d8b2caf-37b4-4a52-bfbe-0d315f48c805",
+  "notScopes": [
+   "/subscriptions/6d8b2caf-37b4-4a52-bfbe-0d315f48c805/resourceGroups/edgendai-databricks-dev-canadaeast-rg"
+  ],
+  "parameters": {
+   "tagName": {
+    "value": "owner"
+   }
+  },
+  "description": "",
+  "metadata": {
+   "assignedBy": "Sylvain Barbot",
+   "parameterScopes": {},
+   "createdBy": "82bf2f67-c428-4753-a404-1de67321f31c",
+   "createdOn": "2020-01-15T20:18:48.1780722Z",
+   "updatedBy": "82bf2f67-c428-4753-a404-1de67321f31c",
+   "updatedOn": "2020-01-29T16:24:27.8889877Z"
+  },
+  "enforcementMode": "Default"
+ },
+ "id": "/subscriptions/6d8b2caf-37b4-4a52-bfbe-0d315f48c805/providers/Microsoft.Authorization/policyAssignments/7e0b32b37bd844f795e829c8",
+ "type": "Microsoft.Authorization/policyAssignments",
+ "name": "7e0b32b37bd844f795e829c8",
+ "location": "canadaeast"
+}
